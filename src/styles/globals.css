@@ -74,6 +74,20 @@ code {
 	--color-abyss: #000712;
 }
 
+input,
+textarea,
+select {
+	@apply bg-white rounded-lg border p-2 focus:outline-0 border-transparent-grey;
+	@apply focus:border-cobalt-light shadow-sm transition;
+	@apply placeholder-gray-400;
+	caret-color: var(--color-cobalt-light);
+}
+
+input,
+textarea {
+	@apply focus:scale-105;
+}
+
 button {
 	@apply cursor-pointer;
 }
