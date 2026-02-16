@@ -1,11 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
-</template>
+	<div class="w-full min-h-screen flex flex-col items-center p-10">
+		<h1 class="text-6xl fonr-bold">Vue Dashboard</h1>
 
-<style scoped></style>
+	</div>
+</template>
